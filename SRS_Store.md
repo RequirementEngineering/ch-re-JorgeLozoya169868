@@ -19,7 +19,7 @@ Although the project can be managed and designed to be commercialized, it will b
 ## Product Perspective
 
 The system consists of an application for consultation and modification of data, therefore it is divided into two parts.
-The application needs a constant communication with the database to retrieve the information in real time and thus show the current status of each product and be able to modify this state.
+The application needs a constant communication with the database to retrieve the information in real time and thus show the current status of each product and be able to modify this state.
 
 
 ## Product functions
@@ -28,23 +28,29 @@ The main function of the system is to provide information to the user and the co
 
 ## User characteristics
 
-There are three types of users, the end user, the administrator and the owner of the electronics store. Each of them has different use cases and therefore each one has different characteristics in the requirements
+There are three types of users, the end user, the administrator and the owner of the electronics store. Each of them has different use cases and therefore each one has different characteristics in the requirements.
 
-The end user can only use the application to find stocks of the product. This means that the user can only interact with and search the search interface. It is important that the product that is searched matches the data.
-
-The owner of the electronics store does not have to navigate in the application, its function will be to modify and update the products but will not have access to the change of ID unless it is a new product.
-
-The administrator will have access to the data, being able to modify it and confirm that the information is valid.
+| User| Description|
+| ------------- |:-------------:| 
+| End user | Can only use the application to find stocks of the product. This means that the user can only interact with and search the search interface. It is important that the product that is searched matches the data.      |
+| Owner| does not have to navigate in the application, its function will be to modify and update the products but will not have access to the change of ID unless it is a new product. | 
+| Administrador | will have access to the data, being able to modify it and confirm that the information is valid. |
+| Employers |They can make product delete and update the data|
 
 ## Constraints
 The different interfaces that are needed can become a restriction due to the difficulty of adapting. Since it opens a difference of navigation depending on the type of user.
 
-The hardware can be an impediment due to the high cost it can generate for a simple electronics store.
+The hardware can be an impediment due to the high cost it can generate for a electronics store.
 
 If you want the end user to search for the product, you need a more functional interface that is face-to-face / physical.
 
 ## Assumptions and dependencies
-
+| AS (Assumption) DE(Dependencies)| Description |
+| ------------- |:-------------:| 
+| AS-1:| Only one end user at a time  |
+| AS-2:| The final interface will be a tablet application.| 
+| DE-1:| Internet Connection |
+| DE-2:| Electricity for final device|
 ## Apportioning of requirements
 
 # Specific requirements
