@@ -26,10 +26,20 @@ The application needs a constant communication with the database to retrieve the
 
 The main function of the system is to provide information to the user and the complete management of the system to the administrator. Thus making an application for the management of a electronics store.
 
+| Class of use cases|Use cases| Description of uses cases|
+| ------------- |-------------| -----|
+|**Use case related to Installation**   |Installation   |Software pre-installed on a tablet |
+|**Use cases related to product database**|Login to the product database| Login into to system |
+|| Change IDs| Can change Product's ID|
+|| Update inventory | Update purchased and received products |
+|| Rename Products | Be able to modify the name of the products|
+|**Use case related to purchases**| Display the price|Show the price of any product|
+
+
+
 ## User characteristics
 
-There are three types of users, the end user, the administrator and the owner of the electronics store. Each of them has different use cases and therefore each one has different characteristics in the requirements.
-
+There are four types of users: the end user, the administrator, employer and the owner of the electronics store. Each of them has different use cases and therefore each one has different characteristics in the requirements.
 | User| Description|
 | ------------- |:-------------:| 
 | End user | Can only use the application to find stocks of the product. This means that the user can only interact with and search the search interface. It is important that the product that is searched matches the data.      |
