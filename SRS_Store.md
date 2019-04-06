@@ -5,7 +5,7 @@ Although this project has an academic focus, the chosen theme will help to under
 
 ## Scope
 
-"Electronics Store Management System " will be an application designed to be developed in Java with a database connection, where you can create, read, update and delete products from a store. It will have as data the name of the product, an ID and its price. Where the user will be able to consult said information
+"Electronics Store Management System " (ESMS) will be an application designed to be developed in Java with a database connection, where you can create, read, update and delete products from a store. It will have as data the name of the product, an ID and its price. Where the user will be able to consult said information
 
 There are different users with different authority in the system, to which, not all users can access the data in the same way.
 
@@ -33,9 +33,16 @@ The main function of the system is to provide information to the user and the co
 || Change IDs| Can change Product's ID|
 || Update inventory | Update purchased and received products |
 || Rename Products | Be able to modify the name of the products|
-|**Use case related to purchases**| Display the price|Show the price of any product|
+|**Use cases related to purchases**| Display the price|Show the price of any product|
+||Enable purchases in only available products | The client only can buy the available products|
+||Do not allow the purchase of stockouts| The client may see the product but can't buy it|
+|**Use cases related to securities**|Generate tickets|A ticket is generated to pay at the cashier|
+||No purchases allowed from the application |The application will not accept any payment method|
+|**Use cases related to alert**|Generate empty inventory alert|When a product is not available, an alert will be sent|
+||Show alerts|Show all the pending alerts|
 
-
+## Principal Actors
+The two principal actors in ESMS are "user" and "system".
 
 ## User characteristics
 
