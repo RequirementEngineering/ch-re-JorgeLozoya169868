@@ -47,6 +47,7 @@ The two principal actors in ESMS are "user" and "system".
 ## User characteristics
 
 There are four types of users: the end user, the administrator, employer and the owner of the electronics store. Each of them has different use cases and therefore each one has different characteristics in the requirements.
+
 | User| Description|
 | ------------- |:-------------:| 
 | End user | Can only use the application to find stocks of the product. This means that the user can only interact with and search the search interface. It is important that the product that is searched matches the data.      |
@@ -82,4 +83,15 @@ Here you will see all the details about the inputs and outputs that have been pl
 
 # Functional requirements
 We describe the funtional requirements by giving various use cases.
-
+ *Use case related to installation:*
+ **Use Case 1:** Installation
+ *Primary Actor*: Owner
+ *Pre Condition*: Have a tablet with ESMS, Pre-made database
+ *Main Scenario:*
+ 1. The store owner turns on the system.
+ 2. System asks for the dicrectoy of the database.
+ 3. The owner specifies where is the directory and access.
+ 4. The system shows a success message
+ *Alternate Scenario:*
+ 3(a). Don't find the directory
+ 
