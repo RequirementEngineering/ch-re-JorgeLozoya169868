@@ -83,10 +83,15 @@ Here you will see all the details about the inputs and outputs that have been pl
 
 # Functional requirements
 We describe the funtional requirements by giving various use cases.
+
  *Use case related to installation:*
+
  **Use Case 1:** Installation
+
  *Primary Actor*: Owner
+
  *Pre Condition*: Have a tablet with ESMS, Pre-made database
+
  *Main Scenario:*
  1. The store owner turns on the system.
  2. System asks for the dicrectoy of the database.
