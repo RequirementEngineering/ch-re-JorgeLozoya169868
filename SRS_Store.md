@@ -81,4 +81,5 @@ Here you will see all the details about the inputs and outputs that have been pl
 ## Communications interfaces
 
 # Functional requirements
+We describe the funtional requirements by giving various use cases.
 
