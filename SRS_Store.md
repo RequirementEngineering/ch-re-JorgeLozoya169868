@@ -100,3 +100,16 @@ We describe the funtional requirements by giving various use cases.
  *Alternate Scenario:*
  3(a). Don't find the directory
  
+  *Use case related to product database:*
+
+ **Use Case 2:** Login to the product database
+
+ *Primary Actor*: Administrador
+
+ *Pre Condition*: Have the password, database already installed
+
+ *Main Scenario:*
+ 1. The administrator logs into the database
+ 2. Makes the necessary changes
+ 
+ 
