@@ -50,7 +50,7 @@ There are four types of users: the end user, the administrator, employer and the
 
 | User| Description|
 | ------------- |:-------------:| 
-| End user | Can only use the application to find stocks of the product. This means that the user can only interact with and search the search interface. It is important that the product that is searched matches the data.      |
+| Customers | Can only use the application to find stocks of the product. This means that the user can only interact with and search the search interface. It is important that the product that is searched matches the data.      |
 | Owner| does not have to navigate in the application, its function will be to modify and update the products but will not have access to the change of ID unless it is a new product. | 
 | Administrador | will have access to the data, being able to modify it and confirm that the information is valid. |
 | Employers |They can make product delete and update the data|
@@ -97,6 +97,7 @@ We describe the funtional requirements by giving various use cases.
  2. System asks for the dicrectoy of the database.
  3. The owner specifies where is the directory and access.
  4. The system shows a success message
+ 
  *Alternate Scenario:*
  3(a). Don't find the directory
  
@@ -111,5 +112,66 @@ We describe the funtional requirements by giving various use cases.
  *Main Scenario:*
  1. The administrator logs into the database
  2. Makes the necessary changes
+ 3. Leave the system open for the owner
  
+ **Use Case 3:** Change IDs
+ *Primary Actor*: Administrador
+ 
+ *Pre Condition*: Already login in to database
+ 
+ *Main Scenario:*
+ 1. Login
+ 2. Search the product to change
+ 3. Make the ID change and save
+ 
+ *Alternate Scenario:*
+ 2(a). Don't find the product
+ 2(a)1. ID change abort.
+ 
+  **Use Case 4:** Update inventory
+ *Primary Actor*: Owner and Employers
+ 
+ *Pre Condition*: Have new inventory or some product was sold
+ 
+ *Main Scenario:*
+ 1. Search the product to be modified
+ 2. Increase or eliminate the new quantity
+ 3. Save changes
+ 
+ *Alternate Scenario:*
+ 2(a). Unable to access the system
+ 2(a)1. Call the administrator.
+ 
+  **Use Case 5:** Rename Products
+ *Primary Actor*: Owner
+ 
+ *Pre Condition*: Access to the database
+ 
+ *Main Scenario:*
+ 1. Login in mode Owner
+ 2. Search the product
+ 3. Change the name
+ 4. Save
+ 
+ *Alternate Scenario:*
+ 2(a). Unable to access the system
+ 2(a)1. Call the administrator.
+
+*Use case related to purchases:*
+
+ **Use Case 6:** Display the price
+
+ *Primary Actor*: Customer
+
+ *Pre Condition*: Have the application open on the tablet 
+
+ *Main Scenario:*
+ 1. The client looks for a product.
+ 2. The app shows different results.
+ 3. The customer chooses one.
+ 4. The app displays the price.
+ 
+ *Alternate Scenario:*
+ 3(a). Don't find the product.
+ 3(a)1. The system must show various alternatives to the product.
  
