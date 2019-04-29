@@ -82,6 +82,9 @@ Here you will see all the details about the inputs and outputs that have been pl
 ## Communications interfaces
 
 # Functional requirements
+### A general use case
+![General_UseCase](fig/General_UseCase.PNG)
+
 We describe the funtional requirements by giving various use cases.
 
  *Use case related to installation:*
