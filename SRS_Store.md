@@ -126,6 +126,7 @@ We describe the funtional requirements by giving various use cases.
  
  *Alternate Scenario:*
  2(a). Don't find the product
+ 
  2(a)1. ID change abort.
  
   **Use Case 4:** Update inventory
@@ -140,6 +141,7 @@ We describe the funtional requirements by giving various use cases.
  
  *Alternate Scenario:*
  2(a). Unable to access the system
+ 
  2(a)1. Call the administrator.
  
   **Use Case 5:** Rename Products
@@ -155,13 +157,14 @@ We describe the funtional requirements by giving various use cases.
  
  *Alternate Scenario:*
  2(a). Unable to access the system
+ 
  2(a)1. Call the administrator.
 
 *Use case related to purchases:*
 
  **Use Case 6:** Display the price
 
- *Primary Actor*: Customer
+ *Primary Actor*: Customer 
 
  *Pre Condition*: Have the application open on the tablet 
 
@@ -172,6 +175,114 @@ We describe the funtional requirements by giving various use cases.
  4. The app displays the price.
  
  *Alternate Scenario:*
- 3(a). Don't find the product.
- 3(a)1. The system must show various alternatives to the product.
+ 1(a). Don't find the product.
  
+ 1(a)1. The system must show various alternatives to the product.
+ 
+ **Use Case 7:** Enable purchases in only available products
+
+ *Primary Actor*: Customer
+
+ *Pre Condition*: Success in display the price 
+
+ *Main Scenario:*
+ 1. The client looks for a product.
+ 2. The app shows different results.
+ 3. The customer chooses one.
+ 4. The app displays the price and open a menu.
+ 5. Show how many product the store have.
+ 
+ *Alternate Scenario:*
+ 2(a). Don't find the product.
+ 
+ 2(a)1. The system must show various alternatives to the product.
+ 
+ **Use Case 8:** Do not allow the purchase of stockouts
+
+ *Primary Actor*: Customer
+
+ *Pre Condition*: Success in display the price 
+
+ *Main Scenario:*
+ 1. The client looks for a product.
+ 2. The app shows different results.
+ 3. The customer chooses one.
+ 4. The app displays the price and do not open a menu if there no stock.
+ 
+ *Alternate Scenario:*
+ 2(a). Don't find the product.
+ 
+ 2(a)1. The system must show various alternatives to the product.
+ 
+ *Use case related to securities:*
+
+ **Use Case 9:** Generate tickets
+
+ *Primary Actor*: Customer 
+
+ *Pre Condition*: The customer want to purchase a product 
+
+ *Main Scenario:*
+ 1. The client looks for a product.
+ 2. The app shows different results.
+ 3. The customer chooses one.
+ 4. The app displays the price and open a menu.
+ 5. Show how many product the store have.
+ 6. The customer wants to buy a certain amount of product
+ 7. The system will set aside the amount desired by the client and generate a ticket to pay in cash
+ 
+ *Alternate Scenario:*
+ 1(a). Don't find the product.
+ 
+ 1(a)1. The system must show various alternatives to the product.
+ 
+ **Use Case 10:** No purchases allowed from the application
+
+ *Primary Actor*: Customer 
+
+ *Pre Condition*: The customer want to purchase a product 
+
+ *Main Scenario:*
+ 1. The client looks for a product.
+ 2. The app shows different results.
+ 3. The customer chooses one.
+ 4. The app displays the price and open a menu.
+ 5. The system warns that no purchases are allowed from the application. Only set aside by means of tickets
+ 6. Show how many product the store have.
+ 7. The customer wants to buy a certain amount of product
+
+ 
+ *Alternate Scenario:*
+ 1(a). Don't find the product.
+ 
+ 1(a)1. The system must show various alternatives to the product.
+ 
+ *Use case related to alert:*
+
+ **Use Case 11:** Generate empty inventory alert
+
+ *Primary Actor*: System
+
+ *Pre Condition*: Connect to the database
+
+ *Main Scenario:*
+ 1. The system verifies the quantity of products that it has
+ 2. If a product has 3 or less, the system will create an alert.
+ 3. If a product has 0, the system will disable the product
+ 
+ *Alternate Scenario:*
+ 1(a). Don't find any the product without stock.
+ 
+ 1(a)1. Do nothing.
+ 
+ **Use Case 12:** Show alerts
+
+ *Primary Actor*: System
+
+ *Pre Condition*: Have alerts
+
+ *Main Scenario:*
+ 1. The system verifies the alerts that it has
+ 2. If the system has 3 or more alerts, the system will send a messege to the owner.
+ 3. The owner can check each one of the alerts that exist.
+
