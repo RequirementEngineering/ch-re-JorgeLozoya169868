@@ -295,13 +295,23 @@ We describe the funtional requirements by giving various use cases.
 *Interview: Day 1*
 
 **Interviewer:** What type of application do you want?
+
 **John Smith(owner):** I want a way for my customers to see the prices of my products
+
 **Interviewer:** In person or online?
+
 **Owner:** How?
+
 **Interviewer:** You want your customer to see prices from their store through an electronic tablet or want a website where you show all your prices?
+
 **Owner:** I prefer that they come to my store and can look for prices from here
+
 **Interviewer:** So, the products will be shown on the screen with their price, right?
+
 **Owner:** Right, Right, I also want some way someone can buy from the app
+
 **Interviewer:** Maybe generating tickets to pay in cash?
+
 **Owner:** Yes, great idea
+
 
