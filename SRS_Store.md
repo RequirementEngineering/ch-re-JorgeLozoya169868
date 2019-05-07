@@ -292,7 +292,7 @@ We describe the funtional requirements by giving various use cases.
 # Appendixes
 ## Elicitation Process
 
-*Interview: Day 1*
+*Interview: First Week*
 
 **Interviewer:** What type of application do you want?
 
@@ -304,7 +304,7 @@ We describe the funtional requirements by giving various use cases.
 
 **Interviewer:** You want your customer to see prices from their store through an electronic tablet or want a website where you show all your prices?
 
-**Owner:** I prefer that they come to my store and can look for prices from here
+**Owner:** Oh, I prefer that they come to my store and can look for prices from here
 
 **Interviewer:** So, the products will be shown on the screen with their price, right?
 
