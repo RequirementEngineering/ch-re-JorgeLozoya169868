@@ -292,26 +292,19 @@ We describe the funtional requirements by giving various use cases.
 # Appendixes
 ## Elicitation Process
 
-*Interview: First Week*
+*Interview: First day*
 
-**Interviewer:** What type of application do you want?
+**Interviewer:** What kind of processes exist here?
 
-**John Smith(owner):** I want a way for my customers to see the prices of my products
+**John Smith(owner):** Well, first of all, the products come from different suppliers.
 
-**Interviewer:** In person or online?
+**Interviewer:** Who is the person in charge of the inventory?
 
-**Owner:** How?
+**Owner:** We have a manager. He is in charge of inventory and employees.
 
-**Interviewer:** You want your customer to see prices from their store through an electronic tablet or want a website where you show all your prices?
+**Interviewer:** Who else has access to the inventory?
 
-**Owner:** Oh, I prefer that they come to my store and can look for prices from here
+**Owner:** Oh, the system allows employees to remove a product from inventory by selling it
 
-**Interviewer:** So, the products will be shown on the screen with their price, right?
-
-**Owner:** Right, Right, I also want some way someone can buy from the app
-
-**Interviewer:** Maybe generating tickets to pay in cash?
-
-**Owner:** Yes, great idea
 
 
