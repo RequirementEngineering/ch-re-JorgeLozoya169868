@@ -51,7 +51,7 @@ There are four types of users: the end user, the administrator, employer and the
 | User| Description|
 | ------------- |:-------------:| 
 | Customers | Has waiting times when making the purchase and interacts with the selling employees      |
-| Owner| does not have to navigate in the application, its function will be to modify and update the products but will not have access to the change of ID unless it is a new product. | 
+| Risk Department| It is the intermediary between the management of resources and suppliers | 
 | Sale Manager | He is in charge of reviewing the inventory and buying from suppliers |
 | Sale Employers |They can make product delete and update the data|
 
@@ -65,7 +65,7 @@ If you want the end user to search for the product, you need a more functional i
 ## Assumptions and dependencies
 | AS (Assumption) DE(Dependencies)| Description |
 | ------------- |:-------------:| 
-| AS-1:| Only one end user at a time  |
+| AS-1:| Maybe a product is not available  |
 | AS-2:| The final interface will be a tablet application.| 
 | DE-1:| Internet Connection |
 | DE-2:| Electricity for final device|
