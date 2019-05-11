@@ -50,10 +50,10 @@ There are four types of users: the end user, the administrator, employer and the
 
 | User| Description|
 | ------------- |:-------------:| 
-| Customers | Can only use the application to find stocks of the product. This means that the user can only interact with and search the search interface. It is important that the product that is searched matches the data.      |
+| Customers | Has waiting times when making the purchase and interacts with the selling employees      |
 | Owner| does not have to navigate in the application, its function will be to modify and update the products but will not have access to the change of ID unless it is a new product. | 
-| Administrador | will have access to the data, being able to modify it and confirm that the information is valid. |
-| Employers |They can make product delete and update the data|
+| Sale Manager | He is in charge of reviewing the inventory and buying from suppliers |
+| Sale Employers |They can make product delete and update the data|
 
 ## Constraints
 The different interfaces that are needed can become a restriction due to the difficulty of adapting. Since it opens a difference of navigation depending on the type of user.
