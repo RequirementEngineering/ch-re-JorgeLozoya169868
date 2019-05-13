@@ -307,4 +307,16 @@ We describe the funtional requirements by giving various use cases.
 **Owner:** Oh, the system allows employees to remove a product from inventory by selling it
 
 
+*Inverview: Second day*
 
+**Interviewer:** Well, how long do customers usually wait in their lines?
+
+**Owner:** About half an hour, although normally we do not have that problem
+
+**Interviewer:** So what is the problem?
+ 
+**Owner:** When a customer buys a product, there is the possibility of not having it in stock.Then we see if the product is in the cellar.
+
+**Interviewer:** What happens if you do not have it in the cellar?
+
+**Owner:** Oh, we notify you that the product asks the customer does not have it and we send a request to the risk department
