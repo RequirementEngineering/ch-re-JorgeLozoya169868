@@ -1,7 +1,7 @@
   <h1 align="center"> Universidad Autonoma de Ciudad Juarez</h3>
   <h2 align="center"> División Multidisciplinaria de Ciudad Universitaria </h3>
   <h3 align="center"> Departamento de Ingeniería Electricidad y Computación </h3>
-  <p align="center"><img src="fig/uacj_logo.png" height="358" width="250"></img></p>
+  <p align="center"><img src="fig/uacj_logo.png" height="408" width="300"></img></p>
   <h2>SRS Document: Process of Electronic Store</h3>
   <h3 align="center">By:Jorge Lozoya Acosta</h3>
   <h3 align="center">169868</h3>
@@ -18,8 +18,8 @@
     - [Product perspective](#Product-perspective)
        - [Product Functions](#Product-functions) 
     -[Principal Actors](#Principal-Actors)
-    - [User characteristics](#User-characteristics)
-    - [Constrains](#Constrains)
+    -[User characteristics](#User-characteristics)
+    -[Constrains](#Constrains)
     -[Assumptions and dependencies](#Assumptions-and-dependencies)
 * [Specific requirements](#Specific-requirements) 
     - [User Interface](#User-Interface)
