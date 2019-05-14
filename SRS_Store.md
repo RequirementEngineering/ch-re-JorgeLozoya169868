@@ -321,8 +321,8 @@ We describe the funtional requirements by giving various use cases.
  3. The owner can check each one of the alerts that exist.
 
 ## Non-Functional Requirements
-## System Requirement
-## User Requirement
+## System Requirements
+## User Requirements
 
 
 # Appendices
