@@ -1,7 +1,7 @@
   <h1 align="center"> Universidad Autonoma de Ciudad Juarez</h3>
   <h2 align="center"> División Multidisciplinaria de Ciudad Universitaria </h3>
   <h3 align="center"> Departamento de Ingeniería Electricidad y Computación </h3>
-  <p align="center"><img src="fig/uacj_logo.png" height="408" width="300"></img></p>
+  <p align="center"><img src="fig/uacj_logo.png" height="458" width="350"></img></p>
   <h2>SRS Document: Process of Electronic Store</h3>
   <h3 align="center">By:Jorge Lozoya Acosta</h3>
   <h3 align="center">169868</h3>
