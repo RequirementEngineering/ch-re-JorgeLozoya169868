@@ -1,3 +1,37 @@
+  <h1 align="center"> Universidad Autonoma de Ciudad Juarez</h3>
+  <h2 align="center"> División Multidisciplinaria de Ciudad Universitaria </h3>
+  <h3 align="center"> Departamento de Ingeniería Electricidad y Computación </h3>
+  <p align="center"><img src="fig/uacj_logo.png" height="358" width="250"></img></p>
+  <h2>SRS Document: Process of Electronic Store</h3>
+  <h3 align="center">By:Jorge Lozoya Acosta</h3>
+  <h3 align="center">169868</h3>
+  
+# Table of contents
+* [Introduction](#Introduction)
+    - [Purpose](#Purpose)
+    - [Scope](#Scope)
+    - [Definitions, acronyms, and abbreviations](#Definitions-acronyms-and-abbreviations)
+    - [References](#References)
+
+* [Overrall description](#Overall-description)
+    - [Business Managment Process](#Business-Managment-Process)
+    - [Product perspective](#Product-perspective)
+       - [Product Functions](#Product-functions) 
+    -[Principal Actors](#Principal-Actors)
+    - [User characteristics](#User-characteristics)
+    - [Constrains](#Constrains)
+    -[Assumptions and dependencies](#Assumptions-and-dependencies)
+* [Specific requirements](#Specific-requirements) 
+    - [User Interface](#User-Interface)
+    - [Requirements](#requirements)
+       - [Functional Requirements](#Functional-Requirements)
+       - [Non functional Requirements](#Non-functional-Requirements) 
+       - [System Requirements](#System-Requirements)
+       - [User Requirements](#User-Requirements)
+* [Appendices](#Appendices) 
+   - [Elicitation process](#Elicitation-process)
+    
+
 # Introduction
 ## Purpose
 
@@ -16,6 +50,7 @@ Although the project can be managed and designed to be commercialized, it will b
 ## References
 
 # Overall Description
+## Business Managment Process
 ## Product Perspective
 
 The system consists of an application for consultation and modification of data, therefore it is divided into two parts.
@@ -69,20 +104,16 @@ If you want the end user to search for the product, you need a more functional i
 | AS-2:| The final interface will be a tablet application.| 
 | DE-1:| Internet Connection |
 | DE-2:| Electricity for final device|
-## Apportioning of requirements
 
 # Specific requirements
 
-## External interface Requirements
-
+## User Interface
 Here you will see all the details about the inputs and outputs that have been planned for the system. There will also be a description of hardware, software and its communication between interfaces and a basic prototype of the user interface is also provided.
 
-## User Interface
-## Hardware Interface
-## Communications interfaces
+## Requirements
 
-# Functional requirements
-### A general use case
+### Functional Requirements
+**A general use case**
 ![General_UseCase](fig/General_UseCase.PNG)
 
 We describe the funtional requirements by giving various use cases.
@@ -289,7 +320,12 @@ We describe the funtional requirements by giving various use cases.
  2. If the system has 3 or more alerts, the system will send a messege to the owner.
  3. The owner can check each one of the alerts that exist.
 
-# Appendixes
+## Non-Functional Requirements
+## System Requirement
+## User Requirement
+
+
+# Appendices
 ## Elicitation Process
 
 *Interview: First day*
