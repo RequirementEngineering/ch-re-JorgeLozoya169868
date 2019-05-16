@@ -39,45 +39,30 @@ Although this project has an academic focus, the chosen theme will help to under
 
 ## Scope
 
-"Electronics Store Management System " (ESMS) will be an application designed to be developed in Java with a database connection, where you can create, read, update and delete products from a store. It will have as data the name of the product, an ID and its price. Where the user will be able to consult said information
+"Electronics Store Management System " (ESMS)is an application that simulates the processes carried out in a specialized store, where you can create, read, update and delete products from a store. It will have as data the name of the product, an ID and its price.
 
-There are different users with different authority in the system, to which, not all users can access the data in the same way.
+Different users interact in different ways, each one has activities that influence the flow of the process.
 
 Although the project can be managed and designed to be commercialized, it will be more focused on an academic purpose.
 
 ## Definitions, acronyms, and abbreviations
-
+- ESMS Electronics Sotre MAnagment System
 ## References
 
 # Overall Description
 ## Business Managment Process
 ## Product Perspective
 
-The system consists of an application for consultation and modification of data, therefore it is divided into two parts.
-The application needs a constant communication with the database to retrieve the information in real time and thus show the current status of each product and be able to modify this state.
-
+The system consists of a query application, therefore, show the current status of each product and generate a bar code so that the product can be purchased directly. The client will be able to see all his products seeing the inventory that the electronics store has, so he will only have to pay for them.
 
 ## Product functions
+* Update the product
+* To be able to make requests to suppliers.
+* To be able to add new products
+* Send a message to the sales manager in case the chosen product is not in the store.
+* Generate tickets
 
-The main function of the system is to provide information to the user and the complete management of the system to the administrator. Thus making an application for the management of a electronics store.
 
-| Class of use cases|Use cases| Description of uses cases|
-| ------------- |-------------| -----|
-|**Use case related to Installation**   |Installation   |Software pre-installed on a tablet |
-|**Use cases related to product database**|Login to the product database| Login into to system |
-|| Change IDs| Can change Product's ID|
-|| Update inventory | Update purchased and received products |
-|| Rename Products | Be able to modify the name of the products|
-|**Use cases related to purchases**| Display the price|Show the price of any product|
-||Enable purchases in only available products | The client only can buy the available products|
-||Do not allow the purchase of stockouts| The client may see the product but can't buy it|
-|**Use cases related to securities**|Generate tickets|A ticket is generated to pay at the cashier|
-||No purchases allowed from the application |The application will not accept any payment method|
-|**Use cases related to alert**|Generate empty inventory alert|When a product is not available, an alert will be sent|
-||Show alerts|Show all the pending alerts|
-
-## Principal Actors
-The two principal actors in ESMS are "user" and "system".
 
 ## User characteristics
 
@@ -88,27 +73,32 @@ There are four types of users: the end user, the administrator, employer and the
 | Customers | Has waiting times when making the purchase and interacts with the selling employees      |
 | Risk Department| It is the intermediary between the management of resources and suppliers | 
 | Sale Manager | He is in charge of reviewing the inventory and buying from suppliers |
-| Sale Employers |They can make product delete and update the data|
+| Sale Employers |They can make product update|
+| Suppliers | Sell products to the store|
 
 ## Constraints
-The different interfaces that are needed can become a restriction due to the difficulty of adapting. Since it opens a difference of navigation depending on the type of user.
 
-The hardware can be an impediment due to the high cost it can generate for a electronics store.
-
-If you want the end user to search for the product, you need a more functional interface that is face-to-face / physical.
+It is necessary to know better the process for an optimal process and to improve the waiting time.
 
 ## Assumptions and dependencies
 | AS (Assumption) DE(Dependencies)| Description |
 | ------------- |:-------------:| 
-| AS-1:| Maybe a product is not available  |
-| AS-2:| The final interface will be a tablet application.| 
+| AS-1:| Maybe a product is not available.  |
+| AS-2:| The customer waits in the line at least half an hour.|  
 | DE-1:| Internet Connection |
-| DE-2:| Electricity for final device|
+| DE-2:| There are always available providers.|
 
 # Specific requirements
 
 ## User Interface
-Here you will see all the details about the inputs and outputs that have been planned for the system. There will also be a description of hardware, software and its communication between interfaces and a basic prototype of the user interface is also provided.
+There will be a screen where the scanned product will be displayed. The sales manager will be shown the status update of the purchased product. This will happen when the customer buys a product.
+
+Other features and extra features are:
+* Add products
+* Delete products
+* Changes products
+* Send messages between departments and users
+* Generate ticket
 
 ## Requirements
 
