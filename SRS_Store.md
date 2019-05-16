@@ -194,10 +194,26 @@ Post-conditions | Nothing.
  Alternative flow | The product has not arrived. Then send another request to the risk department
  Post-conditions | The product has been updated.
  
-## Non-Functional Requirements
-## System Requirements
-## User Requirements
-
+### Non-Functional Requirements
+* The approach of security in the purchase and sale of products must be maximum
+* Usability must satisfy the client being comfortable for them.
+* The fast delivery of products does not have to take more than 2 months
+* Messages and requests must be made at the moment they are sent.
+* Always try to have product availability
+* With the help of tickets and various vouchers you will have an organized system of products.
+### System Requirements
+* Send low product alerts in the inventory
+* Export data in a PDF file
+* Generate sales graphs
+* Availability of supplier products.
+* Be able to generate reports
+* Generate requests to purchase products from suppliers
+### User Requirements
+* Show the price of the product sold to the customer
+* Generate product status
+* Allow verification of product availability
+* Update the purchase number to be assigned to each customer
+* Being able to print the data
 
 # Appendices
 ## Elicitation Process
