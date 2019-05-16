@@ -46,14 +46,27 @@ Different users interact in different ways, each one has activities that influen
 Although the project can be managed and designed to be commercialized, it will be more focused on an academic purpose.
 
 ## Definitions, acronyms, and abbreviations
-- ESMS Electronics Sotre MAnagment System
+- ESMS Electronics Sotre Managment System
 ## References
 
 # Overall Description
 ## Business Managment Process
+For the bussiness Managment Pocess, it will be planned as shown in the following figure, where it was designed from the [elicitation process](#Elicitation-process)
+ ### Main BMP Diagram
+ ![MainProcess_BPM](fig/ElectronicStore_MainProcess.jpg)
+ 
+ * Here you can see how the process of an electronic store is deployed with the main process of buying and selling products.
+ * You can also see the interaction between the internal and external users of the process, with the main external suppliers.
+
+* ![Make Order Process](fig/MakeOrderProcess.jpg)
+
+Throughout this process (Make orders) you can see the path a product takes to be received in the store. All procedures that are carried out to confirm purchases and orders.
+
+In case you want to review more thoroughly you can download the .vpp file by clicking on the following link [File .vpp](https://github.com/RequirementEngineering/ch-re-JorgeLozoya169868/blob/master/fig/ElectronicStore.vpp).
+
 ## Product Perspective
 
-The system consists of a query application, therefore, show the current status of each product and generate a bar code so that the product can be purchased directly. The client will be able to see all his products seeing the inventory that the electronics store has, so he will only have to pay for them.
+The system consists of a query application, therefore, show the current status of each product and generate a bar code so that the product can be purchased directly. The client will be able to see all his products seeing the inventory that the electronics store has, so he will only have to pay for them. 
 
 ## Product functions
 * Update the product
