@@ -246,3 +246,13 @@ Post-conditions | Nothing.
 **Interviewer:** What happens if you do not have it in the cellar?
 
 **Owner:** Oh, we notify you that the product asks the customer does not have it and we send a request to the risk department
+
+*Conversation: Fifth day*
+**Sales employee:** When a customer buys a product, a payment process is initiated, where I capture the payment either in cash or with a card and in the end the customer receives the ticket for his purchase.
+**Sales Manager:** Yes, every time a ticket is generated, the system updates the product data, that is, when we have available products in the store and in the inventory. Then, I have to verify that the inventory does not have any risk of being empty, in case there are only three units left I send an order to the risk department so they know about the inventory problem.
+*Conversation: Sixth day*
+**Risk department:** From time to time we receive orders from the sales manager, what we do is identify the most trusted supplier and contact him. Next, we call the finance department to authorize payment.
+**Finance:** We review all the requests and, depending on the price and our funds, we authorize the purchase to the supplier. The supplier sends his product once the purchase is made and the product reaches the sales department.
+
+*Conversation: last day:*
+**Sale Manager:** When I receive a product that I could, update the data in the system and arrange it in the store. When I receive a product that I could, update the data in the system and arrange it in the store. The voucher of the purchase is also kept with the supplier.
