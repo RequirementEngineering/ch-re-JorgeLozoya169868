@@ -118,7 +118,73 @@ User  | Description
  Alternative flow | Something is wrong with the inventory system. The product can not be sold.
  Post-conditions | Generate a ticket.
  
+ ![UseCase1_SellProduct](fig/UseCase1_SelProduct.jpg)
 
+User  | Description
+ ----- | -------------
+ Name | Sell product
+ Author | Jorge Lozoya
+ Date | 08/05/2019
+ Brief Description |The client wants to pay for a product so he interacts with the sales employee, the employee performs the payment process and generates a ticket for the client.
+ Actors | Customer and sale employer
+ Pre-conditions | Buy at least one product
+ Normal flow | Client: Buy a product. Sale Employer: Check the payment process of the customer's product. Generate a sale's ticket
+ Alternative flow | Something is wrong with the inventory system. The product can not be sold.
+ Post-conditions | Generate a ticket.
+ 
+ ![UseCase2_CheckInventory](fig/UseCase2_CheckInventory.jpg)
+ 
+ User  | Description
+ ----- | -------------
+ Name | Check Inventory
+ Author | Jorge Lozoya
+ Date | 08/05/2019
+ Brief Description |The client wants to pay for a product so he interacts with the sales employee, the employee performs the payment process and generates a ticket for the client.
+ Actors | Sale manager and Risk department
+ Pre-conditions | A product below 3 units
+ Normal flow | The sales manager, after checking the inventory, makes a request to the risk department to have more products.
+ Alternative flow | Nothing.
+Post-conditions | Nothing.
+
+![UseCase3_RequestProducts](fig/UseCase3_RequestProducts.jpg)
+ 
+ User  | Description
+ ----- | -------------
+ Name | Request Products
+ Author | Jorge Lozoya
+ Date | 11/05/2019
+ Brief Description |The manager sends an order to the risk department, then the finance department is in charge of contacting the supplier and receiving the product.
+ Pre-conditions | A product below 3 units
+ Normal flow | A specific product is requested, this request is sent to finance and then finance is in charge of finding the supplier and making the purchase of the product. It also ensures that the product arrives at the store.
+ Alternative flow | It may take longer than expected.
+ Post-conditions | The product arrive.
+ 
+ ![UseCase3_RequestProducts](fig/UseCase3_RequestProducts.jpg)
+ 
+ User  | Description
+ ----- | -------------
+ Name | Request Products
+ Author | Jorge Lozoya
+ Date | 11/05/2019
+ Brief Description |The manager sends an order to the risk department, then the finance department is in charge of contacting the supplier and receiving the product.
+ Pre-conditions | A product below 3 units
+ Normal flow | A specific product is requested, this request is sent to finance and then finance is in charge of finding the supplier and making the purchase of the product. It also ensures that the product arrives at the store.
+ Alternative flow | It may take longer than expected.
+ Post-conditions | The product arrive.
+
+![UseCase4_ReceiveProducts](fig/UseCase4_ReceiveProducts.jpg)
+ 
+ User  | Description
+ ----- | -------------
+ Name | Request Products
+ Author | Jorge Lozoya
+ Date | 11/05/2019
+ Brief Description |The manager receives a product and updates the status.
+ Pre-conditions |Arrival of a new product
+ Normal flow | The manager receives a product and updates the status.
+ Alternative flow | The product has not arrived. Then send another request to the risk department
+ Post-conditions | The product has been updated.
+ 
 ## Non-Functional Requirements
 ## System Requirements
 ## User Requirements
