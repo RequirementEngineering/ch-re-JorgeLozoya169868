@@ -54,7 +54,7 @@ Although the project can be managed and designed to be commercialized, it will b
 - DE Dependencies
 
 ## References
-Weinzimer, P. (2014b, 14 august). 7 Steps to Excellent Service Delivery. Recuperado 12 mayo, 2019, de https://www.cio.com/article/2462369/7-steps-to-excellent-service-delivery.html
+Weinzimer, P. (2014, 14 August). 7 Steps to Excellent Service Delivery. Recovered 12 May, 2019, from https://www.cio.com/article/2462369/7-steps-to-excellent-service-delivery.html
 # Overall Description
 ## Business Managment Process
 For the bussiness Managment Pocess, it will be planned as shown in the following figure, where it was designed from the [elicitation process](#Elicitation-process)
