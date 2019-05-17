@@ -39,16 +39,20 @@ Although this project has an academic focus, the chosen theme will help to under
 
 ## Scope
 
-"Electronics Store Management System " (ESMS)is an application that simulates the processes carried out in a specialized store, where you can create, read, update and delete products from a store. It will have as data the name of the product, an ID and its price.
+"Electronics Store Management " (ESM)is an application that simulates the processes carried out in a specialized store, where you can create, read, update and delete products from a store. It will have as data the name of the product, an ID and its price.
 
 Different users interact in different ways, each one has activities that influence the flow of the process.
 
 Although the project can be managed and designed to be commercialized, it will be more focused on an academic purpose.
 
 ## Definitions, acronyms, and abbreviations
-- ESMS Electronics Sotre Managment System
+- ESM Electronics Sotre Managment
+- BMP Business Managment Process
+- CRUD Create, Read, Update and Delete
+- ID Identification
+- .vpp File of Visual Paradigm Proyect
 ## References
-
+* Weinzimer, P. (2014, 14 august). 7 Steps to Excellent Service Delivery. Recuperado 12 mayo, 2019, de https://www.cio.com/article/2462369/7-steps-to-excellent-service-delivery.html
 # Overall Description
 ## Business Managment Process
 For the bussiness Managment Pocess, it will be planned as shown in the following figure, where it was designed from the [elicitation process](#Elicitation-process)
@@ -79,7 +83,7 @@ The system consists of a query application, therefore, show the current status o
 
 ## User characteristics
 
-There are four types of users: the end user, the administrator, employer and the owner of the electronics store. Each of them has different use cases and therefore each one has different characteristics in the requirements.
+There are four types of users: the customer, departments of sales and risks , employers like sale employee and the suppliers of the electronics store. Each of them has different use cases and therefore each one has different characteristics in the requirements.
 
 | User| Description|
 | ------------- |:-------------:| 
